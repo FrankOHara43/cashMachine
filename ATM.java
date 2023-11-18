@@ -3,9 +3,9 @@ import java.io.IOException;
 public class ATM {
   
   public static void main(String[] args) throws IOException{
-    OptionMenu optionMenu1 = new OptionMenu();
+    OptionMenu optionMenu = new OptionMenu();
     introduction();
-    optionMenu1.mainMenu();
+    optionMenu.mainMenu();
   }
   
   public static void introduction(){
